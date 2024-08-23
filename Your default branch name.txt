@@ -1,0 +1,7 @@
+By default Git will create a branch called master when you create a new repository with git init. 
+
+From Git version 2.28 onwards, you can set a different name for the initial branch.
+
+To set main as the default branch name do:
+
+$ git config --global init.defaultBranch main

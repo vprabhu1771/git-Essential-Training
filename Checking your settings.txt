@@ -1,0 +1,23 @@
+If you want to check your configuration settings, 
+
+you can use the git config --list command to list all the settings Git can find at that point:
+
+$ git config --list
+user.name=John Doe
+user.email=johndoe@example.com
+color.status=auto
+color.branch=auto
+color.interactive=auto
+color.diff=auto
+...
+
+You may see keys more than once, because Git reads the same key from different files 
+
+([path]/etc/gitconfig and ~/.gitconfig, for example). 
+
+In this case, Git uses the last value for each unique key it sees.
+
+You can also check what Git thinks a specific key’s value is by typing git config <key>:
+
+$ git config user.name
+John Doe

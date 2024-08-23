@@ -1,0 +1,49 @@
+Using Atom as your editor
+
+1. Install Atom. For more information, see "Installing Atom" in the Atom documentation.
+
+2. Type this command: 
+
+$ git config --global core.editor "atom --wait"
+
+
+
+Using Visual Studio Code as your editor
+
+1. Install Visual Studio Code (VS Code). 
+
+For more information, see "Setting up Visual Studio Code" in the VS Code documentation.
+
+2. Open Git Bash.
+
+3. Type this command: 
+
+$ git config --global core.editor "code --wait"
+
+
+
+Using Sublime Text as your editor
+
+1. Install Sublime Text. 
+
+For more information, see "Installation" in the Sublime Text documentation.
+
+2. Open Git Bash.
+
+3. Type this command: 
+
+$ git config --global core.editor "'C:/Program Files (x86)/sublime text 3/subl.exe' -w"
+
+
+
+Using Notepad++ as your editor
+
+1. Install Notepad++ from https://notepad-plus-plus.org/. 
+
+For more information, see "Getting started" in the Notepad++ documentation.
+
+2. Open Git Bash.
+
+3. Type this command: 
+
+$ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
